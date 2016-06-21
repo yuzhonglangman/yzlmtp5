@@ -1,0 +1,10 @@
+{$retinfo['psm_id']}
+<br/>
+{$retinfo['psm_name']}
+<!-- page specific plugin scripts -->
+<script type="text/javascript">
+	var scripts = [null, null]
+	$('.page-content-area').ace_ajax('loadScripts', scripts, function() {
+	  //inline scripts related to this page
+	});
+</script>
